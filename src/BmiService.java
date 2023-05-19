@@ -1,8 +1,10 @@
 public class BmiService {
-    public double calculate (double weight, double height){
-        double boodyMassIndex = (weight / (height*height));
+    public double calculate(double weight, double height) {
+        double boodyMassIndex = (weight / (height * height));
         return boodyMassIndex;
-    };
+    }
+
+    ;
 
     /* todo:
     формула индекса массы тела
